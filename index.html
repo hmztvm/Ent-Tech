@@ -1,22 +1,36 @@
+```html
 <!DOCTYPE html>
 <html lang="az">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="description" content="IT Help Desk və Cisco CCNA praktiki təlim proqramı. 0-dan şəbəkə administratorluğuna doğru.">
   <meta name="theme-color" content="#0b1220">
+
   <title>Ent Tech Academy | IT Help Desk & Networking</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- HEADER -->
 <header class="header" id="header">
   <div class="container nav">
-    <a href="#home" class="logo"><span>EnT </span>Tech</a>
-    <button class="menu-toggle" aria-label="Menyunu aç" aria-expanded="false">☰</button>
+
+    <a href="#home" class="logo">
+      <img src="images/logo.png" alt="Ent Tech Academy Logo">
+    </a>
+
+    <button class="menu-toggle" aria-label="Menyunu aç" aria-expanded="false">
+      ☰
+    </button>
+
     <nav class="nav-links">
       <a href="#program">Proqram</a>
       <a href="#skills">Nələr öyrənəcəksən?</a>
@@ -24,207 +38,703 @@
       <a href="#faq">FAQ</a>
       <a href="#contact" class="nav-cta">Qeydiyyat</a>
     </nav>
+
   </div>
 </header>
 
+
+<!-- MAIN -->
 <main>
+
+  <!-- HERO -->
   <section class="hero" id="home">
+
     <div class="network-bg"></div>
+
     <div class="container hero-grid">
+
       <div class="hero-content reveal">
-        <div class="eyebrow"><span class="dot"></span> Praktiki IT & Networking təlimi</div>
-        <h1>0-dan <span>Şəbəkə Administratoruna</span> doğru.</h1>
+
+        <div class="eyebrow">
+          <span class="dot"></span>
+          Praktiki IT & Networking təlimi
+        </div>
+
+        <h1>
+          0-dan <span>Şəbəkə Administratoruna</span> doğru.
+        </h1>
+
         <p class="hero-text">
           IT Help Desk təməlindən başlayaraq Cisco CCNA səviyyəsinə qədər
           real laboratoriyalar, troubleshooting və iş ssenariləri ilə öyrən.
         </p>
+
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Qeydiyyatdan keç <span>→</span></a>
-          <a href="#program" class="btn btn-secondary">Proqramı gör</a>
+          <a href="#contact" class="btn btn-primary">
+            Qeydiyyatdan keç <span>→</span>
+          </a>
+
+          <a href="#program" class="btn btn-secondary">
+            Proqramı gör
+          </a>
         </div>
+
         <div class="trust-row">
-          <div><strong>4</strong><span>Ay proqram</span></div>
-          <div><strong>100%</strong><span>Praktiki yanaşma</span></div>
-          <div><strong>CCNA</strong><span>Exam hazırlığı</span></div>
+          <div>
+            <strong>4</strong>
+            <span>Ay proqram</span>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <span>Praktiki yanaşma</span>
+          </div>
+
+          <div>
+            <strong>CCNA</strong>
+            <span>Exam hazırlığı</span>
+          </div>
         </div>
+
       </div>
+
 
       <div class="hero-card reveal">
-        <div class="terminal-top"><span></span><span></span><span></span><small>network-lab</small></div>
-        <div class="terminal-body">
-          <p><span class="prompt">$</span> show course-status</p>
-          <div class="terminal-line"><span>HELP_DESK</span><b>READY</b></div>
-          <div class="terminal-line"><span>CCNA</span><b>ACTIVE</b></div>
-          <div class="terminal-line"><span>LABS</span><b>100%</b></div>
-          <div class="terminal-line"><span>TROUBLESHOOTING</span><b>ON</b></div>
-          <p class="cursor-line"><span class="prompt">$</span> start your journey<span class="cursor">_</span></p>
+
+        <div class="terminal-top">
+          <span></span>
+          <span></span>
+          <span></span>
+          <small>network-lab</small>
         </div>
+
+        <div class="terminal-body">
+
+          <p>
+            <span class="prompt">$</span>
+            show course-status
+          </p>
+
+          <div class="terminal-line">
+            <span>HELP_DESK</span>
+            <b>READY</b>
+          </div>
+
+          <div class="terminal-line">
+            <span>CCNA</span>
+            <b>ACTIVE</b>
+          </div>
+
+          <div class="terminal-line">
+            <span>LABS</span>
+            <b>100%</b>
+          </div>
+
+          <div class="terminal-line">
+            <span>TROUBLESHOOTING</span>
+            <b>ON</b>
+          </div>
+
+          <p class="cursor-line">
+            <span class="prompt">$</span>
+            start your journey<span class="cursor">_</span>
+          </p>
+
+        </div>
+
       </div>
+
     </div>
   </section>
 
+
+  <!-- STATS -->
   <section class="stats">
+
     <div class="container stats-grid">
-      <div><strong>01</strong><span>Help Desk fundamentals</span></div>
-      <div><strong>02</strong><span>Networking & CCNA</span></div>
-      <div><strong>03</strong><span>Routing & Switching</span></div>
-      <div><strong>04</strong><span>Exam & career preparation</span></div>
+
+      <div>
+        <strong>01</strong>
+        <span>Help Desk fundamentals</span>
+      </div>
+
+      <div>
+        <strong>02</strong>
+        <span>Networking & CCNA</span>
+      </div>
+
+      <div>
+        <strong>03</strong>
+        <span>Routing & Switching</span>
+      </div>
+
+      <div>
+        <strong>04</strong>
+        <span>Exam & career preparation</span>
+      </div>
+
     </div>
+
   </section>
 
+
+  <!-- PROGRAM -->
   <section class="section" id="program">
+
     <div class="container">
+
       <div class="section-heading reveal">
-        <span class="section-tag">TƏDRİS PROQRAMI</span>
-        <h2>4 ayda mərhələli şəkildə inkişaf et.</h2>
-        <p>Hər mərhələdə nəzəriyyə + praktika + troubleshooting.</p>
+
+        <span class="section-tag">
+          TƏDRİS PROQRAMI
+        </span>
+
+        <h2>
+          4 ayda mərhələli şəkildə inkişaf et.
+        </h2>
+
+        <p>
+          Hər mərhələdə nəzəriyyə + praktika + troubleshooting.
+        </p>
+
       </div>
+
 
       <div class="timeline">
+
         <article class="timeline-card reveal">
+
           <span class="month">01</span>
+
           <div>
+
             <h3>IT Help Desk</h3>
-            <p>IT support məntiqi, Windows, hardware/software, user support, ticketing və real troubleshooting ssenariləri.</p>
-            <div class="tags"><span>Windows</span><span>Hardware</span><span>Support</span><span>Troubleshooting</span></div>
+
+            <p>
+              IT support məntiqi, Windows, hardware/software,
+              user support, ticketing və real troubleshooting ssenariləri.
+            </p>
+
+            <div class="tags">
+              <span>Windows</span>
+              <span>Hardware</span>
+              <span>Support</span>
+              <span>Troubleshooting</span>
+            </div>
+
           </div>
+
         </article>
+
+
         <article class="timeline-card reveal">
+
           <span class="month">02</span>
+
           <div>
+
             <h3>Networking Fundamentals</h3>
-            <p>OSI/TCP-IP, IPv4/IPv6, subnetting, Ethernet, ARP, DHCP, DNS və əsas network anlayışları.</p>
-            <div class="tags"><span>IPv4</span><span>IPv6</span><span>Subnetting</span><span>TCP/IP</span></div>
+
+            <p>
+              OSI/TCP-IP, IPv4/IPv6, subnetting, Ethernet, ARP,
+              DHCP, DNS və əsas network anlayışları.
+            </p>
+
+            <div class="tags">
+              <span>IPv4</span>
+              <span>IPv6</span>
+              <span>Subnetting</span>
+              <span>TCP/IP</span>
+            </div>
+
           </div>
+
         </article>
+
+
         <article class="timeline-card reveal">
+
           <span class="month">03</span>
+
           <div>
+
             <h3>Routing & Switching</h3>
-            <p>VLAN, trunk, STP, inter-VLAN routing, static routing, OSPF, ACL, NAT və şəbəkə troubleshooting.</p>
-            <div class="tags"><span>VLAN</span><span>STP</span><span>OSPF</span><span>ACL</span><span>NAT</span></div>
+
+            <p>
+              VLAN, trunk, STP, inter-VLAN routing, static routing,
+              OSPF, ACL, NAT və şəbəkə troubleshooting.
+            </p>
+
+            <div class="tags">
+              <span>VLAN</span>
+              <span>STP</span>
+              <span>OSPF</span>
+              <span>ACL</span>
+              <span>NAT</span>
+            </div>
+
           </div>
+
         </article>
+
+
         <article class="timeline-card reveal">
+
           <span class="month">04</span>
+
           <div>
+
             <h3>Lab + CCNA Exam Prep</h3>
-            <p>Packet Tracer, GNS3/EVE-NG laboratoriyaları, real cihazlarla təcrübə və müsahibə hazırlığı.</p>
-            <div class="tags"><span>Packet Tracer</span><span>GNS3</span><span>EVE-NG</span><span>Exam Prep</span></div>
+
+            <p>
+              Packet Tracer, GNS3/EVE-NG laboratoriyaları,
+              real cihazlarla təcrübə və müsahibə hazırlığı.
+            </p>
+
+            <div class="tags">
+              <span>Packet Tracer</span>
+              <span>GNS3</span>
+              <span>EVE-NG</span>
+              <span>Exam Prep</span>
+            </div>
+
           </div>
+
         </article>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- SKILLS -->
   <section class="section dark-section" id="skills">
+
     <div class="container">
+
       <div class="section-heading reveal">
-        <span class="section-tag">SKILLS</span>
-        <h2>Nələri öyrənəcəksən?</h2>
-        <p>CV-də və real iş mühitində istifadə edə biləcəyin əsas bacarıqlar.</p>
+
+        <span class="section-tag">
+          SKILLS
+        </span>
+
+        <h2>
+          Nələri öyrənəcəksən?
+        </h2>
+
+        <p>
+          CV-də və real iş mühitində istifadə edə biləcəyin əsas bacarıqlar.
+        </p>
+
       </div>
+
+
       <div class="skills-grid">
-        <div class="skill-card reveal"><span>01</span><h3>Networking</h3><p>OSI, TCP/IP, Ethernet, ARP, DHCP, DNS və network fundamentals.</p></div>
-        <div class="skill-card reveal"><span>02</span><h3>Switching</h3><p>VLAN, trunking, STP, EtherChannel və Layer 2 troubleshooting.</p></div>
-        <div class="skill-card reveal"><span>03</span><h3>Routing</h3><p>Static routes, OSPF, inter-VLAN routing və routing troubleshooting.</p></div>
-        <div class="skill-card reveal"><span>04</span><h3>Security</h3><p>ACL, NAT, basic network security və təhlükəsiz konfiqurasiya yanaşması.</p></div>
-        <div class="skill-card reveal"><span>05</span><h3>Practical Labs</h3><p>Packet Tracer, GNS3 və EVE-NG üzərində real topologiyalar.</p></div>
-        <div class="skill-card reveal"><span>06</span><h3>Career Prep</h3><p>CV, LinkedIn, texniki müsahibə və iş ssenarilərinə hazırlıq.</p></div>
+
+        <div class="skill-card reveal">
+          <span>01</span>
+          <h3>Networking</h3>
+          <p>
+            OSI, TCP/IP, Ethernet, ARP, DHCP, DNS və network fundamentals.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span>02</span>
+          <h3>Switching</h3>
+          <p>
+            VLAN, trunking, STP, EtherChannel və Layer 2 troubleshooting.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span>03</span>
+          <h3>Routing</h3>
+          <p>
+            Static routes, OSPF, inter-VLAN routing və routing troubleshooting.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span>04</span>
+          <h3>Security</h3>
+          <p>
+            ACL, NAT, basic network security və təhlükəsiz konfiqurasiya yanaşması.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span>05</span>
+          <h3>Practical Labs</h3>
+          <p>
+            Packet Tracer, GNS3 və EVE-NG üzərində real topologiyalar.
+          </p>
+        </div>
+
+        <div class="skill-card reveal">
+          <span>06</span>
+          <h3>Career Prep</h3>
+          <p>
+            CV, LinkedIn, texniki müsahibə və iş ssenarilərinə hazırlıq.
+          </p>
+        </div>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- WHY -->
   <section class="section" id="why">
+
     <div class="container two-col">
+
       <div class="section-heading reveal">
-        <span class="section-tag">NİYƏ BU PROQRAM?</span>
-        <h2>Sadəcə mövzuları oxuma. <span>Onları qur.</span></h2>
-        <p>Networking öyrənməyin ən effektiv yollarından biri real laboratoriyalarda konfiqurasiya etmək və problemi özün həll etməkdir.</p>
+
+        <span class="section-tag">
+          NİYƏ BU PROQRAM?
+        </span>
+
+        <h2>
+          Sadəcə mövzuları oxuma.
+          <span>Onları qur.</span>
+        </h2>
+
+        <p>
+          Networking öyrənməyin ən effektiv yollarından biri real
+          laboratoriyalarda konfiqurasiya etmək və problemi özün həll etməkdir.
+        </p>
+
       </div>
+
+
       <div class="benefits reveal">
-        <div class="benefit"><b>✓</b><div><h3>100% praktiki laboratoriyalar</h3><p>Topologiyalar qur, konfiqurasiya et və nəticəni yoxla.</p></div></div>
-        <div class="benefit"><b>✓</b><div><h3>Real troubleshooting</h3><p>Problemli ssenarilər üzərində səbəbi tap və həll et.</p></div></div>
-        <div class="benefit"><b>✓</b><div><h3>CCNA exam hazırlığı</h3><p>CCNA mövzuları üzrə sistemli hazırlıq və praktika.</p></div></div>
-        <div class="benefit"><b>✓</b><div><h3>CV & LinkedIn dəstəyi</h3><p>Öyrəndiklərini düzgün şəkildə professional profilinə əlavə et.</p></div></div>
+
+        <div class="benefit">
+          <b>✓</b>
+
+          <div>
+            <h3>100% praktiki laboratoriyalar</h3>
+            <p>
+              Topologiyalar qur, konfiqurasiya et və nəticəni yoxla.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="benefit">
+          <b>✓</b>
+
+          <div>
+            <h3>Real troubleshooting</h3>
+            <p>
+              Problemli ssenarilər üzərində səbəbi tap və həll et.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="benefit">
+          <b>✓</b>
+
+          <div>
+            <h3>CCNA exam hazırlığı</h3>
+            <p>
+              CCNA mövzuları üzrə sistemli hazırlıq və praktika.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="benefit">
+          <b>✓</b>
+
+          <div>
+            <h3>CV & LinkedIn dəstəyi</h3>
+            <p>
+              Öyrəndiklərini düzgün şəkildə professional profilinə əlavə et.
+            </p>
+          </div>
+        </div>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- PRICE -->
   <section class="section pricing-section" id="price">
+
     <div class="container">
+
       <div class="pricing-card reveal">
+
         <div>
-          <span class="section-tag">QEYDİYYAT</span>
-          <h2>Karyerana bu gün başla.</h2>
-          <p>Aktual qiymət və növbəti qrup haqqında məlumat almaq üçün WhatsApp-dan yaz.</p>
+
+          <span class="section-tag">
+            QEYDİYYAT
+          </span>
+
+          <h2>
+            Karyerana bu gün başla.
+          </h2>
+
+          <p>
+            Aktual qiymət və növbəti qrup haqqında məlumat almaq üçün
+            WhatsApp-dan yaz.
+          </p>
+
         </div>
+
+
         <div class="price-side">
-          <span class="price-label">Kampaniya</span>
-          <div class="price">200 <small>AZN</small></div>
-          <a href="#contact" class="btn btn-primary">Məlumat al →</a>
+
+          <span class="price-label">
+            Kampaniya
+          </span>
+
+          <div class="price">
+            200 <small>AZN</small>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">
+            Məlumat al →
+          </a>
+
         </div>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- INSTRUCTOR -->
   <section class="section instructor" id="instructor">
+
     <div class="container instructor-card reveal">
+
       <div class="profile-photo-wrap">
-        <img class="profile-photo" src="profile.jpg" alt="Məmməd Həmzətov">
+        <img
+          class="profile-photo"
+          src="profile.jpg"
+          alt="Məmməd Həmzətov"
+        >
       </div>
+
+
       <div>
-        <span class="section-tag">INSTRUCTOR</span>
-        <h2>Məmməd Həmzətov</h2>
-        <p class="role">Network Engineer · Cisco Instructor · CCNA Certified</p>
-        <p>Praktiki networking və IT təlimlərinə fokuslanan instructor. Dərslərdə real lab mühitləri, troubleshooting və iş ssenarilərindən istifadə olunur.</p>
-        <div class="tags"><span>CCNA</span><span>Networking</span><span>IT Help Desk</span><span>Labs</span></div>
-        <a class="linkedin-link" href="https://www.linkedin.com/in/mammadhamzatov/" target="_blank" rel="noopener">
-          <span class="linkedin-icon">in</span> LinkedIn profilimə bax →
+
+        <span class="section-tag">
+          INSTRUCTOR
+        </span>
+
+        <h2>
+          Məmməd Həmzətov
+        </h2>
+
+        <p class="role">
+          Network Engineer · Cisco Instructor · CCNA Certified
+        </p>
+
+        <p>
+          Praktiki networking və IT təlimlərinə fokuslanan instructor.
+          Dərslərdə real lab mühitləri, troubleshooting və iş ssenarilərindən
+          istifadə olunur.
+        </p>
+
+        <div class="tags">
+          <span>CCNA</span>
+          <span>Networking</span>
+          <span>IT Help Desk</span>
+          <span>Labs</span>
+        </div>
+
+        <a
+          class="linkedin-link"
+          href="https://www.linkedin.com/in/mammadhamzatov/"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="linkedin-icon">in</span>
+          LinkedIn profilimə bax →
         </a>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- FAQ -->
   <section class="section faq-section" id="faq">
+
     <div class="container narrow">
+
       <div class="section-heading reveal">
-        <span class="section-tag">FAQ</span>
-        <h2>Tez-tez verilən suallar</h2>
+
+        <span class="section-tag">
+          FAQ
+        </span>
+
+        <h2>
+          Tez-tez verilən suallar
+        </h2>
+
       </div>
+
+
       <div class="faq">
-        <details><summary>Heç bir networking təcrübəm yoxdur. Qoşula bilərəm?</summary><p>Bəli. Proqram IT Help Desk və networking fundamentals-dan başlayaraq şəbəkə haqqında hər şey dərindən öyrədilir.</p></details>
-        <details><summary>Dərslər praktiki olacaq?</summary><p>Bəli. Packet Tracer, GNS3 və EVE-NG kimi laboratoriya mühitlərində, həmçinin real cihazlarla praktiki tapşırıqlar nəzərdə tutulur.</p></details>
-        <details><summary>CCNA sertifikatını kurs bitəndə alıram?</summary><p>Bəli. Kurs müddətində CCNA imtahanınına hazırlıq və imtahana qeydiyyat üçün 58% endirim voucher-i teqdim olunur və kursu bitirdikdə CCNA sertifikatını əldə edirsənş</p></details>
-        <details><summary>Dərslər online keçirilir?</summary><p>Dərslərin formatı və cədvəli haqqında aktual məlumat üçün qeydiyyat formasından və ya WhatsApp-dan müraciət edə bilərsən.</p></details>
+
+        <details>
+          <summary>
+            Heç bir networking təcrübəm yoxdur. Qoşula bilərəm?
+          </summary>
+
+          <p>
+            Bəli. Proqram IT Help Desk və networking fundamentals-dan
+            başlayaraq şəbəkə haqqında hər şey dərindən öyrədilir.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Dərslər praktiki olacaq?
+          </summary>
+
+          <p>
+            Bəli. Packet Tracer, GNS3 və EVE-NG kimi laboratoriya
+            mühitlərində, həmçinin real cihazlarla praktiki tapşırıqlar
+            nəzərdə tutulur.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            CCNA sertifikatını kurs bitəndə alıram?
+          </summary>
+
+          <p>
+            Bəli. Kurs müddətində CCNA imtahanına hazırlıq və imtahana
+            qeydiyyat üçün 58% endirim voucher-i təqdim olunur və kursu
+            bitirdikdə CCNA sertifikatını əldə edirsən.
+          </p>
+        </details>
+
+
+        <details>
+          <summary>
+            Dərslər online keçirilir?
+          </summary>
+
+          <p>
+            Dərslərin formatı və cədvəli haqqında aktual məlumat üçün
+            qeydiyyat formasından və ya WhatsApp-dan müraciət edə bilərsən.
+          </p>
+        </details>
+
       </div>
+
     </div>
+
   </section>
 
+
+  <!-- CONTACT -->
   <section class="cta-section" id="contact">
+
     <div class="container cta-inner reveal">
-      <span class="section-tag">START NOW</span>
-      <h2>Şəbəkə dünyasına ilk addımını at.</h2>
-      <p>Kurs haqqında məlumat, qiymət və qeydiyyat üçün bizə yaz.</p>
+
+      <span class="section-tag">
+        START NOW
+      </span>
+
+      <h2>
+        Şəbəkə dünyasına ilk addımını at.
+      </h2>
+
+      <p>
+        Kurs haqqında məlumat, qiymət və qeydiyyat üçün bizə yaz.
+      </p>
+
+
       <div class="cta-buttons">
-      
-        <a class="btn btn-primary whatsapp-btn" href="https://wa.me/994507375069?text=Salam!%20IT%20Help%20Desk%20%2B%20CCNA%20kursu%20haqqında%20məlumat%20almaq%20istəyirəm." target="_blank" rel="noopener">WhatsApp ilə yaz →</a>
-        <a class="btn btn-secondary" href="mammad.hamzatov5@gmail.com">Email göndər</a>
+
+        <a
+          class="btn btn-primary whatsapp-btn"
+          href="https://wa.me/994507375069?text=Salam!%20IT%20Help%20Desk%20%2B%20CCNA%20kursu%20haqqında%20məlumat%20almaq%20istəyirəm."
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp ilə yaz →
+        </a>
+
+
+        <a
+          class="btn btn-secondary"
+          href="mailto:mammad.hamzatov5@gmail.com"
+        >
+          Email göndər
+        </a>
+
       </div>
+
     </div>
+
   </section>
+
 </main>
 
+
+<!-- FOOTER -->
 <footer class="footer">
+
   <div class="container footer-inner">
-    <a href="#home" class="logo"><span>Ent </span>Tech</a>
-    <p>© <span id="year"></span> Ent Tech Academy. All rights reserved.</p>
-    <div class="footer-links"><a href="#program">Proqram</a><a href="#faq">FAQ</a><a href="#contact">Əlaqə</a></div>
+
+    <a href="#home" class="logo">
+      <img src="images/logo.png" alt="Ent Tech Academy Logo">
+    </a>
+
+    <p>
+      © <span id="year"></span>
+      Ent Tech Academy. All rights reserved.
+    </p>
+
+    <div class="footer-links">
+      <a href="#program">Proqram</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Əlaqə</a>
+    </div>
+
   </div>
+
 </footer>
 
-<a class="floating-wa" href="https://wa.me/994507375069?text=Salam!%20Kurs%20haqqında%20məlumat%20almaq%20istəyirəm." target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+
+<!-- FLOATING WHATSAPP -->
+<a
+  class="floating-wa"
+  href="https://wa.me/994507375069?text=Salam!%20Kurs%20haqqında%20məlumat%20almaq%20istəyirəm."
+  target="_blank"
+  rel="noopener"
+  aria-label="WhatsApp"
+>
+  WA
+</a>
+
 
 <script src="script.js"></script>
+
 </body>
 </html>
+```
