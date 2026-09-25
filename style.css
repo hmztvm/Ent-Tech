@@ -63,17 +63,14 @@ a{
   justify-content:flex-end
 }
 
-/* =========================
-   LOGO - SOLDA AYRI SAHƏ
-========================= */
 
 .site-logo{
   position:absolute;
   left:0;
   top:0;
 
-  width:150px;
-  height:105px;
+  width:80px;
+  height:80px;
 
   display:flex;
   align-items:center;
